@@ -11,6 +11,8 @@
 		4C4030ED29E9A82E00EA7CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4030EC29E9A82E00EA7CA9 /* Assets.xcassets */; };
 		4C4030F029E9A82E00EA7CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4030EF29E9A82E00EA7CA9 /* Preview Assets.xcassets */; };
 		4C4030F829E9A93F00EA7CA9 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4030F729E9A93F00EA7CA9 /* JokeView.swift */; };
+		4C5F1FC129F036F200E663A4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F1FC029F036F200E663A4 /* NetworkService.swift */; };
+		4CEE283629E9B2CA00B45E0A /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE283529E9B2CA00B45E0A /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4C4030EC29E9A82E00EA7CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4030EF29E9A82E00EA7CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C4030F729E9A93F00EA7CA9 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		4C5F1FC029F036F200E663A4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4CEE283529E9B2CA00B45E0A /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				4C4030E829E9A82200EA7CA9 /* JokesApp.swift */,
 				4C4030F629E9A92300EA7CA9 /* Views */,
+				4CEE283429E9B2A900B45E0A /* Models */,
+				4C5F1FBF29F036C200E663A4 /* Services */,
 				4C4030EC29E9A82E00EA7CA9 /* Assets.xcassets */,
 				4C4030EE29E9A82E00EA7CA9 /* Preview Content */,
 			);
@@ -73,6 +79,22 @@
 				4C4030F729E9A93F00EA7CA9 /* JokeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4C5F1FBF29F036C200E663A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F1FC029F036F200E663A4 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CEE283429E9B2A900B45E0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CEE283529E9B2CA00B45E0A /* Joke.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +169,8 @@
 			files = (
 				4C4030F829E9A93F00EA7CA9 /* JokeView.swift in Sources */,
 				4C4030E929E9A82200EA7CA9 /* JokesApp.swift in Sources */,
+				4C5F1FC129F036F200E663A4 /* NetworkService.swift in Sources */,
+				4CEE283629E9B2CA00B45E0A /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
